@@ -7,8 +7,8 @@
     </head>
             <body>
                 <header>
-                    <h1>Comedy in St. Louis</h1>
-                    <nav>
+                    <h1 id="headline">Comedy in St. Louis</h1>
+                    <nav class="navigation">
                         <ul>
                             <li><a href="#professional">Professional Clubs</a></li>
                             <li><a href="#venue">Venue Shows</a></li>
@@ -20,12 +20,22 @@
                 <main>
                     <article>
                         <section>
+                            <a name="intro"></a>
+                            <p id="intro">When many people think about cities known for comedy, their thoughts migrate 
+                                to New York City, LA, and Chicago.But what if I told you that there is grade a comedy to
+                                be seen within a 10-mile radius of the Arch? "That sounds preposterous", you might say? Well, get ready 
+                                to be amazed. 
+                            </p>
                             <a name="professional"></a>
                             <h2>Professional Comedy Clubs</h2>
-                            <img src=Hel_STL_SiteLogo_071218_(1).png>
-                            <p>Logo for Helium Comedy Club</p>
-                            <p>Comedy has been around for years, and has gone through many phases of evolution.
-                            However, some say you can't beat the original style. <br>
+                            <figure>
+                            <img src=Hel_STL_SiteLogo_071218_(1).png alt="Helium Comedy
+                            Club logo" id="helium">
+                            <figcaption>Helium Comedy Club logo</figcaption>
+                            </figure>
+                            
+                            <p>Comedy has been around for years, and has gone through many phases of evolution. 
+                                However, some say you can't beat the original style. <br>
                             There are many opportunities to see a good comedy show in a classic, 
                                 club setting. You could visit:<br>
                                 <ul>
@@ -42,8 +52,8 @@
                             <section>
                                 <a name="venue"></a>
                                 <h2>Venue Shows</h2>
-                                <img src=jbs_7084_rft.jpg></a>
-                                <p>The Ready Room, located in St Louis&apos;s Grove district</p>
+                                <img src=jbs_7084_rft.jpg>
+                                
                                 <p>Maybe the club scene isn't your thing. You'd like to be able to say
                                     you saw Kyle Kinane and Lana Del Rey on the same stage (not 
                                     at the same time, that would be weird).<br>In that case, you should
@@ -58,12 +68,13 @@
                             </section>
                             <section><a name="independent"></a>
                                 <h2>Independent Showcases</h2>
+                                <img src=crackfox.jpg>
                                 <p>"But Sam!", you say. "I've seen plenty of shows at concert halls and 
                                     comedy clubs. I just want to go hang out at a comfortable bar somewhere
                                     and chill. Too bad they can't do comedy at a bar." Oh sweet, sweet reader.
                                     You can see awesome independent shows at bars in St. Louis every night of 
                                     the week!:<br>
-                                    <ul>
+                                    <ul >
                                         <li>Impolite Company at <a href=http://crackfoxbar.com> 
                                         The Crack Fox</a></li>
                                         <li>Yours, Mine, & Ours at <a href=https://gezelligstl.com> 
@@ -76,12 +87,14 @@
                             <article>
                                 <section><a name="upcoming"></a>
                                     <h2>Upcoming Shows</h2>
+                                    <img src=yoursmineours.jpg alt="Logo for Yours, Mine, and Ours" 
+                                    id="YMO">
                                     <p>So now you're probably thinking, "Wow, it sure seems like there's 
                                         a lot of great comedy happening in St. Louis. I would love to see
                                         a show. It would also be cool if someone I knew was going to be on it."
                                     Well, you're in luck. It turns out I'll actually be on some shows coming up. 
                                     Check out some of my upcoming dates!:<br>
-                                    <ul>
+                                    <ul class="upcoming">
                                         <li>Hosting for JP Sears  
                                     <a href=https://st-louis.heliumcomedy.com/events/25542> September
                                     20-22</a> at Helium</li>
@@ -95,7 +108,7 @@
                             </article>
                 </main>
                 <footer>
-                    <p>Posted by Sam Lyons. All images are promotional &amp; not intended for financial gain. 
+                    <p id="footer">Posted by Sam Lyons. All images are promotional &amp; not intended for financial gain. 
                         Any copyright infringement is unintentional. Support St. Louis comedy. 
                     </p>
                 </footer>
