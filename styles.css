@@ -2,53 +2,74 @@
     margin:0;
     padding:0;
 }
+article{
+margin-bottom:60px;}
 h1 {text-align:center;font-family: helvetica;}
-p{font-style: italic;font-size:22px;
-    color:darkblue;
-margin:10px 8px;
-width:800px;}
-body {
-    background-color: darkgray;}
 .navigation ul {
     margin: 12px 0px;
-    padding: 0;
-    text-align: center;
-}
-
+    padding: 3;
+    text-align: center;}
 .navigation li{
     font-weight:100;
+    letter-spacing: 2px;}
+.upcoming li{
+    text-align:center;
+    font-weight:100;
     letter-spacing: 2px;
+    color:white;
 }
+        body {
+            background-color: darkgray;}
+p {display:block;
+    font-style: italic;font-size:22px;
+    color:darkblue;
+    margin:10px 8px;
+    width:800px;
+    padding:20;}
+        
+    #intro{
+     text-align:left;
+     margin:30px;
+    width:800px;
+        }
 
 h2{text-align:center;
 color:blueviolet;
+font-size:30px;
 border:2px dotted red}
 #headline {
     color:darkblue;
     font-size:40px;
 }
-#footer {
-    font-size:12px;
-    color:black;
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
-#helium{
-    margin-bottom:40px;
-}
-img {
-display:block;
-margin-left:auto;
-margin-right:auto;
-padding:20px;}
-.upcoming li{
-    color:black;
-    text-align:center;
+#impolite{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:500px;
+    width:600px;
 }
 #YMO{
-    width:400px;
-    height:300px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:500px;
+    width:600px;
 }
-#intro{
-    text-align:left;
-    margin:30px;
-    width:800px;
+figcaption{
+    text-align:center;
 }
+#footer{
+    font-size:12px;
+    color:lightgray;
+}
+ 
+
+
+
+    
